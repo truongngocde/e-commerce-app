@@ -44,7 +44,7 @@ export const SearchContainer = styled.div`
     align-items: center;
     justify-content: center;
     padding: 5px;
-    margin-left: 25px;
+    margin: 0 25px;
 `;
 export const Input = styled.input`
     width: 100%;
@@ -60,4 +60,18 @@ export const MenuItem = styled.div`
     font-size: 14px;
     cursor: pointer;
     margin-left: 15px;
+`;
+
+export const List = styled.ul`
+    width: 300px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+`;
+
+export const ListItem = styled.li`
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
 `;
